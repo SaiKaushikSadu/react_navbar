@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-size: 62.5%;
+
+    @media (max-width:768px) {
+        font-size:50%;
+    }
+
+    @media (max-width:450px) {
+        font-size:40%;
+    }
+
+    
+}
+
+body{
+    font-size: 1rem;
+    
+    background-color: rgb(136, 67, 228);
+    
+    height:100%;
+    width:100%;
+    z-index:100;
+    position:absolute;
+    top:0;
+    left:0;
+    background-color:rgba(0,0,0,0.2);
+
+}
+
+
+button{
+    background-color: white;
+    color:rgb(136, 67, 228);
+    padding: 0.7rem 3rem;
+    border: 1px solid black;
+    border-radius: 3rem;
+    background-color: blueviolet;
+    transition: 0.3s ease-in;
+    
+    background-image: linear-gradient(to bottom right, #eebd89,#d13abd);
+}
+
